@@ -43,18 +43,9 @@ const App = () => {
       settemperatureColor("cold")
     } 
 
+    settemperature(newTemperature)
    
 
-    if (temperature >= -15) {
-      settemperatureColor("cool")
-      
-    }
-
-    if (temperature >= -30) {
-      return
-      
-    }
-    settemperature(newTemperature)
   }
   return (
     <div className='app-container'>
